@@ -1,0 +1,50 @@
+[
+	{
+		"id": "1",
+		"QuestionID": "1",
+		"name": "Micheal Lyons",
+		"posted_on": 1545162149000,
+		"answer": "Use the rule of three to answer this question. Pick three attributes and apply that to the product you like. Here is my approach to answering this question.My favorite product is Grammarly. When I think about why Grammarly as my favorite product, it comes down to three key points.",
+		"votes": 14,
+		"feedbacks": [
+			{
+				"id": "1",
+				"name": "Harry Park",
+				"posted_on": 1545162149000,
+				"feedback": "Nice work this is answer 1 feedback 1"
+			},
+			{
+				"id": "2",
+				"name": "Alice Smith",
+				"posted_on": 1545162149000,
+				"feedback": "Nice work this is answer 1 feedback 2"
+			}
+		]
+	},
+	{
+		"id": "f553c429-f924-434b-a805-f94b4b64be4b",
+		"QuestionID": "1",
+		"answer": "This is Pink posting a answer from backend",
+		"name": "Pink R",
+		"views": "0",
+		"feedbacks": []
+	},
+	{
+		"id": "d32f4a80-b5a3-46aa-ab27-5f8b15559cdd",
+		"QuestionID": "1",
+		"answer": "This is Pink posting a answer from backend",
+		"name": "Pink R",
+		"posted_on": 1616583150190,
+		"views": "0",
+		"feedbacks": []
+	},
+	{
+		"id": "5d29ca90-02b7-497b-9b84-2809512bf570",
+		"QuestionID": "1",
+		"answer": "This is Pink posting a answer from backend",
+		"name": "Pink R",
+		"posted_on": 1616583812479,
+		"views": "0",
+		"feedbacks": []
+	}
+]

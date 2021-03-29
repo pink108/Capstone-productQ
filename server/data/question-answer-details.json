@@ -54,14 +54,6 @@
 						"feedback": "Nice work this is Question 1 answer 2 feedback 2"
 					}
 				]
-			},
-			{
-				"id": "d1c07c13-6b2b-46ad-a5cf-8e7c4642fcf5",
-				"answer": "this iswith bibi i am wrting",
-				"name": "Pink R",
-				"posted_on": 1616629996506,
-				"views": "0",
-				"feedbacks": []
 			}
 		]
 	},
@@ -156,98 +148,13 @@
 				"posted_on": 1616631575902,
 				"views": "0",
 				"feedbacks": []
-			},
-			{
-				"id": "5b67e64a-30a5-426b-92e0-5892b9e0e10b",
-				"answer": "this is second answer",
-				"name": "Pink R",
-				"posted_on": 1616632016872,
-				"views": "0",
-				"feedbacks": []
-			},
-			{
-				"id": "071bbc0e-2d9f-4b59-8d64-de0f39d7db60",
-				"answer": "this is foruth answer",
-				"name": "Pink R",
-				"posted_on": 1616632222595,
-				"views": "0",
-				"feedbacks": []
-			},
-			{
-				"id": "9f241df3-c34a-47b8-906c-06dcf969ce31",
-				"answer": "this is fifth answer",
-				"name": "Pink R",
-				"posted_on": 1616632242018,
-				"views": "0",
-				"feedbacks": []
-			}
-		],
-		"views": "0"
-	},
-	{
-		"id": "b78634a0-3858-4c56-82f5-7726379eb8db",
-		"description": "this is testing post question from the browser form",
-		"asked_at": "2",
-		"asked_on": "2021-03-22",
-		"type": "2",
-		"answers": [
-			{
-				"id": "ca226804-9764-417f-b143-917d3d3daede",
-				"answer": "this is answer",
-				"name": "Pink R",
-				"posted_on": 1616631463943,
-				"views": "0",
-				"feedbacks": []
-			},
-			{
-				"id": "d6a00c67-f7d8-49b6-97c7-71722fe6e91a",
-				"answer": "this is my third answer",
-				"name": "Pink R",
-				"posted_on": 1616632140440,
-				"views": "0",
-				"feedbacks": []
-			}
-		],
-		"views": "0"
-	},
-	{
-		"id": "afc443ab-1dbd-4c95-86ed-44cf2d6e5c09",
-		"description": "This is second question from the front end form",
-		"asked_at": "Apple",
-		"asked_on": "2021-04-07",
-		"type": "Product Improvement",
-		"answers": [],
-		"views": "0"
-	},
-	{
-		"id": "d1803826-2b85-49af-a18a-e562f4c6f384",
-		"description": "Build a product to buy and sell antiques.",
-		"asked_at": "Facebook",
-		"asked_on": 1545162149000,
-		"type": "Product design",
-		"answers": [
-			{
-				"id": "e7fecad6-90f1-4cde-9898-053cf61d52b2",
-				"answer": "this is my answer\n",
-				"name": "Pink R",
-				"posted_on": 1616633105207,
-				"views": "0",
-				"feedbacks": []
-			},
-			{
-				"id": "1470bc11-bec6-4c2f-aadb-92afd3380e80",
-				"answer": "this is. build answer\n",
-				"name": "Pink R",
-				"posted_on": 1616633243414,
-				"views": "0",
-				"feedbacks": []
 			}
 		],
 		"views": "0"
 	},
 	{
 		"id": "983b27aa-efe1-412d-a1b0-ca094bf30be5",
-		"description": "this is the interview. question posted from the browser front end",
+		"description": "this is the interview  question posted from the browser front end",
 		"asked_at": "Amazon",
 		"asked_on": "2021-03-08",
 		"type": "Product Estimation",
@@ -269,6 +176,6 @@
 				"feedbacks": []
 			}
 		],
-		"views": "0"
+		"views": "1"
 	}
 ]

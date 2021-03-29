@@ -1,0 +1,70 @@
+.main-section__feedbackContainer {
+  margin: 0;
+  width: 100%;
+}
+
+.main-section__feedbackTitle {
+  margin: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 45px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.main-section__feedbackDivider {
+  border: 0;
+  border-top: 0.25px solid #dfdbdb;
+  margin: 0;
+  margin-right: 16px;
+  margin-left: 45px;
+  margin-bottom: 16px;
+}
+
+.main-section__feedbackCard {
+  padding-top: 16px;
+  padding-right: 16px;
+  padding-left: 45px;
+  padding-bottom: 24px;
+}
+
+.main-section__userInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-section__userImage {
+  width: 48px;
+  height: 48px;
+  border-radius: 90%;
+  margin-right: 12px;
+}
+
+.main-section__userName {
+  margin: 0;
+  font-size: 13px;
+  line-height: 18px;
+  color: #575454;
+}
+
+.main-section__userPostedOn {
+  margin: 0;
+  padding-top: 10px;
+  font-size: 13px;
+  line-height: 18px;
+  color: gray;
+}
+
+.main-section__feedbackDescription {
+  margin: 0;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #575454;
+  margin-bottom: 16px;
+}
+/*# sourceMappingURL=FeedbackCard.css.map */

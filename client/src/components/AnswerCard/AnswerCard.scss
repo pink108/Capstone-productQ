@@ -1,0 +1,98 @@
+.main-section {
+
+    &__answerContainer{
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        border: 0.5px solid rgb(223, 219, 219);
+        margin: 0;
+        width:100%;
+        margin-bottom:20px;
+        // border: 2px dashed green;
+
+    }
+    &__answerCard{
+        padding-top:16px;
+        padding-right:16px;
+        padding-left:16px;
+        // border: 2px dashed yellow;
+    }
+
+    &__userInfo{
+        display:flex;
+    }
+    &__userImage{
+        width: 48px;
+        height: 48px;
+        border-radius: 90%;
+        margin-right:12px; 
+        
+    }
+    &__userName{
+        margin:0;
+        font-size:13px;
+        line-height: 18px;
+        color:rgb(87, 84, 84);
+
+    }
+    &__userPostedOn{
+        margin:0;
+        padding-top:10px;
+        font-size:13px;
+        line-height: 18px;
+        color:gray;
+    }
+
+    &__answerDescription{
+        margin:0;
+        font-size:14px;
+        line-height: 22px;
+        font-weight: 500;
+        color:rgb(87, 84, 84);
+        margin-top:16px;
+        margin-bottom: 16px;
+    }
+
+    &__answerGroup{
+        // border: 2px dashed pink;
+        display:flex;
+        color:rgb(87, 84, 84);
+    }
+
+    &__votesCount{
+        margin:0;
+    }
+
+    &__votesText{
+        margin:0;
+        font-size:0.875rem;
+        line-height:1.375rem;
+        font-weight: 500;
+    }
+
+    &__feedbackCount{
+        margin:0;
+        padding-right: 8px;
+    }
+    &__feedbackText{
+        margin:0;
+        font-size:0.875rem;
+        line-height:1.375rem;
+        font-weight: 500;
+    }    
+
+    &__votesGroup{
+        margin-top: 16px;
+        padding-top:10px;
+        padding-bottom:10px;
+        background-color: rgb(240, 238, 238);
+        display: flex;
+    }
+
+    &__votesText{
+        color:rgb(87, 84, 84);
+        padding-left: 16px;
+        padding-right:16px;
+
+    }
+
+}

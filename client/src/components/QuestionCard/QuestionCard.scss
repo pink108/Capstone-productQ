@@ -1,0 +1,91 @@
+.main-section {
+
+    &__questionCard{
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        border: 0.5px solid rgb(223, 219, 219);
+        margin: 0;
+        width:100%;
+        padding:16px;
+        margin-bottom:20px;
+        // background-color: lightblue;
+        //  border: 2px dashed yellow;
+    }
+
+    &__question{
+        margin:0;
+        font-size:24px;
+        line-height:32px;
+        font-weight: 500;
+        color: black;
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+    &__questionTime{
+        margin:0;
+        padding-top:16px;
+        padding-bottom: 16px;
+        font-size:13px;
+        line-height:18px;
+        font-weight: 500;
+        color:rgb(87, 84, 84);
+
+        &--bold{
+            font-weight: 600;
+        }
+    }
+    &__questionGroup{
+        // border: 2px dashed pink;
+        display:flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__viewsGroup{
+        // border: 2px dashed pink;
+        display:flex;
+        color:rgb(87, 84, 84);
+    }
+
+    &__viewsIcon{
+        margin:0;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    &__viewsCount{
+        margin:0;
+        padding-right: 10px;
+    }
+    &__viewsText{
+        margin:0;
+        font-size:0.875rem;
+        line-height:1.375rem;
+        font-weight: 500;
+    }
+    &__questionDivider{
+        border:0;
+        border-top: 0.25px solid rgb(223, 219, 219);
+        margin: 0;
+    }
+
+    &__categoryButton{
+        margin-top:16px;
+        border:none;
+        padding:5px 10px;
+        border-radius: 10px;
+        background-color: rgb(243, 243, 243);
+        color:rgb(87, 84, 84);
+
+    }
+    &__companyButton{
+        border:none;
+        margin-top:16px;
+        margin-right:16px;
+        margin-left:16px;
+        padding:5px 10px;
+        border-radius: 10px;
+        background-color: rgb(243, 243, 243);
+        color:rgb(87, 84, 84);        
+    }
+
+}

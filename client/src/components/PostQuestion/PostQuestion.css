@@ -1,0 +1,86 @@
+.postQuestion {
+  padding: 0 11.25rem;
+}
+
+.postQuestion__title {
+  margin: 0;
+  text-align: center;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.postQuestion__formGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.postQuestion__formLabel {
+  margin-top: 16px;
+  margin-bottom: 5px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.postQuestion__input {
+  border-radius: 10px;
+  border: 0.5px solid #dfdbdb;
+  padding: 10px;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.postQuestion__dropdown {
+  border-radius: 10px;
+  padding: 10px;
+  color: gray;
+  border: 0.5px solid #dfdbdb;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.postQuestion__date {
+  border-radius: 10px;
+  color: gray;
+  padding: 10px;
+  border: 0.5px solid #dfdbdb;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+}
+
+.postQuestion__buttonGroup {
+  margin-top: 16px;
+}
+
+.postQuestion__submit {
+  color: white;
+  background: #153199;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
+.postQuestion__cancel {
+  background-color: white;
+  border: none;
+  margin-left: 16px;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=PostQuestion.css.map */

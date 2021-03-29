@@ -1,0 +1,72 @@
+.main-section {
+    &__feedbackContainer{
+        margin: 0;
+        width:100%;
+        // margin-bottom:20px;
+    }
+
+    &__feedbackTitle{
+        margin:0;
+        padding-top:16px;
+        padding-bottom: 16px;
+        padding-left:45px;
+        font-size:14px;
+        line-height: 22px;
+        font-weight: 500;
+
+    }
+
+    &__feedbackDivider{
+        border:0;
+        border-top: 0.25px solid rgb(223, 219, 219);
+        margin: 0;
+        margin-right:16px;
+        margin-left:45px;
+        margin-bottom: 16px;
+    }
+
+    &__feedbackCard{
+        padding-top:16px;
+        padding-right:16px;
+        padding-left:45px;
+        padding-bottom:24px;
+        // border: 2px dashed yellow;
+    }
+
+    &__userInfo{
+        display:flex;
+    }
+    &__userImage{
+        width: 48px;
+        height: 48px;
+        border-radius: 90%;
+        margin-right:12px; 
+        
+    }
+    &__userName{
+        margin:0;
+        font-size:13px;
+        line-height: 18px;
+        color:rgb(87, 84, 84);
+
+    }
+    &__userPostedOn{
+        margin:0;
+        padding-top:10px;
+        font-size:13px;
+        line-height: 18px;
+        color:gray;
+    }
+
+    &__feedbackDescription{
+        margin:0;
+        margin-top:16px;
+        margin-bottom: 16px;
+        font-size:14px;
+        line-height: 22px;
+        font-weight: 500;
+        color:rgb(87, 84, 84);
+        margin-bottom: 16px;
+    }
+
+}

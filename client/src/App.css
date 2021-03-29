@@ -1,0 +1,568 @@
+@font-face {
+  font-family: 'AvenirNext LT Pro';
+  src: url("../assets/fonts/AvenirNextLTPro-Heavy.woff2") format("woff2"), url("../assets/fonts/AvenirNextLTPro-Heavy.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AvenirNext LT Pro';
+  src: url("../assets/fonts/AvenirNextLTPro-HeavyIt.woff2") format("woff2"), url("../assets/fonts/AvenirNextLTPro-HeavyIt.woff") format("woff");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AvenirNext LT Pro';
+  src: url("../assets/fonts/AvenirNextLTPro-Demi.woff2") format("woff2"), url("../assets/fonts/AvenirNextLTPro-Demi.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AvenirNext LT Pro';
+  src: url("../assets/fonts/AvenirNextLTPro-BoldIt.woff2") format("woff2"), url("../assets/fonts/AvenirNextLTPro-BoldIt.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AvenirNext LT Pro';
+  src: url("../assets/fonts/AvenirNextLTPro-DemiIt.woff2") format("woff2"), url("../assets/fonts/AvenirNextLTPro-DemiIt.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AvenirNext LT Pro';
+  src: url("../assets/fonts/AvenirNextLTPro-Bold.woff2") format("woff2"), url("../assets/fonts/AvenirNextLTPro-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AvenirNext LT Pro';
+  src: url("../assets/fonts/AvenirNextLTPro-LightIt.woff2") format("woff2"), url("../assets/fonts/AvenirNextLTPro-LightIt.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AvenirNext LT Pro';
+  src: url("../assets/fonts/AvenirNextLTPro-MediumIt.woff2") format("woff2"), url("../assets/fonts/AvenirNextLTPro-MediumIt.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AvenirNext LT Pro';
+  src: url("../assets/fonts/AvenirNextLTPro-Light.woff2") format("woff2"), url("../assets/fonts/AvenirNextLTPro-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AvenirNext LT Pro';
+  src: url("../assets/fonts/AvenirNextLTPro-Regular.woff2") format("woff2"), url("../assets/fonts/AvenirNextLTPro-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AvenirNext LT Pro';
+  src: url("../assets/fonts/AvenirNextLTPro-Medium.woff2") format("woff2"), url("../assets/fonts/AvenirNextLTPro-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AvenirNext LT Pro';
+  src: url("../assets/fonts/AvenirNextLTPro-It.woff2") format("woff2"), url("../assets/fonts/AvenirNextLTPro-It.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AvenirNext LT Pro';
+  src: url("../assets/fonts/AvenirNextLTPro-Thin.woff2") format("woff2"), url("../assets/fonts/AvenirNextLTPro-Thin.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AvenirNext LT Pro UltLight';
+  src: url("../assets/fonts/AvenirNextLTPro-UltLt.woff2") format("woff2"), url("../assets/fonts/AvenirNextLTPro-UltLt.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AvenirNext LT Pro UltLight';
+  src: url("../assets/fonts/AvenirNextLTPro-UltLtIt.woff2") format("woff2"), url("../assets/fonts/AvenirNextLTPro-UltLtIt.woff") format("woff");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'AvenirNext LT Pro';
+  src: url("../assets/fonts/AvenirNextLTPro-ThinIt.woff2") format("woff2"), url("../assets/fonts/AvenirNextLTPro-ThinIt.woff") format("woff");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* box-sizing fix */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* root element */
+body {
+  margin: 0;
+  font-family: AvenirNext LT Pro, Roboto;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container, .main-section, .site-header {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+input, button {
+  font-family: AvenirNext LT Pro, Roboto;
+}
+
+.main-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 11.25rem;
+  margin-top: 16px;
+}
+
+.main-section__left {
+  width: 20%;
+}
+
+.main-section__right {
+  width: 80%;
+}
+
+.site-header {
+  overflow: auto;
+}
+
+.site-header__container {
+  padding: 0 11.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.site-header__brand {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.site-header__logo {
+  width: 173px;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+}
+
+.site-header__group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.site-header__signIn {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.site-header__signIn--text {
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  height: 100%;
+  color: white;
+  background: #153199;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
+.site-header__user--image {
+  width: 48px;
+  height: 48px;
+  border-radius: 90%;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+}
+
+.site-header__banner {
+  margin-top: 0;
+  height: 150px;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 50px;
+  color: white;
+  text-align: center;
+  padding-top: 60px;
+  padding-bottom: 29px;
+  background-color: #153199;
+}
+
+.main-section__left {
+  width: 100%;
+  margin-right: 70px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.main-section__postQuestion {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  color: white;
+  background: #153199;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left: 23px;
+  padding-right: 23px;
+}
+
+.main-section__asideText {
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 500;
+  padding-left: 16px;
+  color: #575454;
+}
+
+.main-section__questionCard {
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border: 0.5px solid #dfdbdb;
+  margin: 0;
+  width: 100%;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.main-section__question {
+  margin: 0;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 500;
+  color: black;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.main-section__questionTime {
+  margin: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  font-size: 13px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #575454;
+}
+
+.main-section__questionTime--bold {
+  font-weight: 600;
+}
+
+.main-section__questionGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-section__viewsGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #575454;
+}
+
+.main-section__viewsIcon {
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.main-section__viewsCount {
+  margin: 0;
+  padding-right: 10px;
+}
+
+.main-section__viewsText {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  font-weight: 500;
+}
+
+.main-section__questionDivider {
+  border: 0;
+  border-top: 0.25px solid #dfdbdb;
+  margin: 0;
+}
+
+.main-section__categoryButton {
+  margin-top: 16px;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+  color: #575454;
+}
+
+.main-section__companyButton {
+  border: none;
+  margin-top: 16px;
+  margin-right: 16px;
+  margin-left: 16px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #f3f3f3;
+  color: #575454;
+}
+
+.main-section__answerContainer {
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border: 0.5px solid #dfdbdb;
+  margin: 0;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.main-section__answerCard {
+  padding-top: 16px;
+  padding-right: 16px;
+  padding-left: 16px;
+}
+
+.main-section__userInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-section__userImage {
+  width: 48px;
+  height: 48px;
+  border-radius: 90%;
+  margin-right: 12px;
+}
+
+.main-section__userName {
+  margin: 0;
+  font-size: 13px;
+  line-height: 18px;
+  color: #575454;
+}
+
+.main-section__userPostedOn {
+  margin: 0;
+  padding-top: 10px;
+  font-size: 13px;
+  line-height: 18px;
+  color: gray;
+}
+
+.main-section__answerDescription {
+  margin: 0;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #575454;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.main-section__answerGroup {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #575454;
+}
+
+.main-section__votesCount {
+  margin: 0;
+}
+
+.main-section__votesText {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  font-weight: 500;
+}
+
+.main-section__feedbackCount {
+  margin: 0;
+  padding-right: 8px;
+}
+
+.main-section__feedbackText {
+  margin: 0;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  font-weight: 500;
+}
+
+.main-section__votesGroup {
+  margin-top: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f0eeee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-section__votesText {
+  color: #575454;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.main-section__feedbackContainer {
+  margin: 0;
+  width: 100%;
+}
+
+.main-section__feedbackTitle {
+  margin: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 45px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+}
+
+.main-section__feedbackDivider {
+  border: 0;
+  border-top: 0.25px solid #dfdbdb;
+  margin: 0;
+  margin-right: 16px;
+  margin-left: 45px;
+  margin-bottom: 16px;
+}
+
+.main-section__feedbackCard {
+  padding-top: 16px;
+  padding-right: 16px;
+  padding-left: 45px;
+  padding-bottom: 24px;
+}
+
+.main-section__userInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main-section__userImage {
+  width: 48px;
+  height: 48px;
+  border-radius: 90%;
+  margin-right: 12px;
+}
+
+.main-section__userName {
+  margin: 0;
+  font-size: 13px;
+  line-height: 18px;
+  color: #575454;
+}
+
+.main-section__userPostedOn {
+  margin: 0;
+  padding-top: 10px;
+  font-size: 13px;
+  line-height: 18px;
+  color: gray;
+}
+
+.main-section__feedbackDescription {
+  margin: 0;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #575454;
+  margin-bottom: 16px;
+}
+/*# sourceMappingURL=App.css.map */

@@ -1,0 +1,39 @@
+.main-section {
+    // @extend .container;
+    &__left {
+        // @extend .container;
+        // border: 2px dashed red;
+        width:100%;
+        margin-right: 70px; 
+        padding-top:16px;
+        padding-bottom: 16px;
+        
+        // background-color: pink; 
+    }
+    &__postQuestion{
+            margin:0;
+            padding:0;
+            // width:100px;
+            height:100%;
+            color:white;
+            background:#153199;
+            font-size: 16px;
+            line-height: 18px;
+            font-weight: 500;
+            border:none;
+            border-radius:10px;
+            padding-top:11px;
+            padding-bottom: 11px;
+            padding-left:23px;
+            padding-right:23px;    
+    }
+    
+    &__asideText{
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 500;
+        padding-left:16px;
+        color:rgb(87, 84, 84);
+    }
+
+}    

@@ -1,0 +1,59 @@
+/* box-sizing fix */
+* { 
+    //border: 0.5px dashed grey;
+    box-sizing: border-box;
+  }
+  
+  /* root element */
+//   html{}
+  body {
+    margin: 0;
+    font-family: AvenirNext LT Pro, Roboto;
+  }
+
+  img {
+    max-width: 100%;
+  }
+  
+  a {
+    text-decoration: none;
+    // color:$black;
+  }
+
+  ul{
+      list-style-type: none;
+  }
+
+  .container{
+    // border: 2px dashed red;
+    // background-color: pink;
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+  
+  input, button{
+    font-family: AvenirNext LT Pro, Roboto;
+  }
+  
+  .main-section {
+      @extend .container;
+      display: flex;
+      padding:0 11.25rem; 
+      margin-top: 16px;
+      
+
+    &__left {
+        width:20%;  
+        // margin-right: 70px; 
+        // background-color: pink; 
+    }
+    &__right {
+        width:80%;
+        // background-color: blue;
+        // padding-right:11.25rem;
+
+    }
+  }
+  
+
+  

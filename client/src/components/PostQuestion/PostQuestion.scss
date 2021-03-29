@@ -1,0 +1,84 @@
+.postQuestion{
+    padding:0 11.25rem; 
+    &__title{
+        margin:0;
+        text-align: center;
+        font-size:24px;
+        line-height: 32px;
+        font-weight: 500;
+        
+    }
+    &__divider{
+    
+    }
+    &__form{
+
+    }
+    &__formGroups{
+
+    }
+    &__formGroup{
+        display: flex;
+        flex-direction: column;
+    }
+    &__formLabel{
+        margin-top:16px;
+        margin-bottom: 5px;
+        font-size:14px;
+        line-height: 22px;
+        font-weight: 500;
+    }
+    &__input{
+        border-radius:10px;
+        border: 0.5px solid rgb(223, 219, 219);
+        padding:10px;
+        font-size:13px;
+        line-height:18px;
+        font-weight: 500;
+    }
+    &__dropdown{
+        border-radius:10px;
+        padding:10px;
+        color: gray;
+        border: 0.5px solid rgb(223, 219, 219);
+        font-size:13px;
+        line-height:18px;
+        font-weight: 500;
+    }
+    &__date{
+        border-radius:10px;
+        color: gray;
+        padding:10px;
+        border: 0.5px solid rgb(223, 219, 219);
+        font-size:13px;
+        line-height:18px;
+        font-weight: 500;
+    }
+    &__buttonGroup{
+        margin-top: 16px;
+
+    }
+    &__submit{
+        color:white;
+        background:#153199;
+        font-size: 16px;
+        line-height: 18px;
+        font-weight: 500;
+        border:none;
+        border-radius:10px;
+        padding-top:11px;
+        padding-bottom: 11px;
+        padding-left:23px;
+        padding-right:23px;   
+
+    }
+    &__cancel{
+        background-color:white;
+        border:none;
+        margin-left:16px;
+        font-size:13px;
+        line-height:18px;
+        font-weight: 500;
+
+    }
+}
